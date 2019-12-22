@@ -1,0 +1,5 @@
+Raspberry Pi 3, Model B, v 1.2, which is the IoT computer that will control the devices that comprise the home automation system
+433-MHz receiver and transmitter modules, which receive signals from, and transmit signals to, the system
+Wireless electrical outlets that listen for on/off signals in the 433 MHz band and respond accordingly
+Wireless home alarm system with window and door sensors that are controlled by and report status by using signals in the 433 MHz 
+frequency band
