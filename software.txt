@@ -1,0 +1,13 @@
+The Raspbian OS (Stretch release), which is the operating system that runs on your Raspberry Pi 3.
+Various utilities to work with the Pi, and the RF receiver and transmitter modules: Wiring Pi, which 
+is an open source library that is used to access the GPIO pins on the Raspberry Pi rc-switch, which 
+is a low-level C++ library for controlling 433-MHz hardware that runs on various platforms, including 
+the Raspberry Pi 433Utils, which uses rc-switch and wiringPi to communicate with the RF receiver and 
+transmitter
+The home-automation project, which is the high-level code that runs the home automation platform itself. 
+You will write much of this code yourself in Part 2, but don’t worry, I’ve provided a complete solution 
+in GitHub if you get stuck (or just feel like skipping ahead).
+Android Studio. While you can download the home automation app from the Google Playstore, you can also 
+download the source for it from GitHub, and load it up in Android Studio. Or, if you don’t have an And-
+-roid device, you can run the app code in the Android emulator. Either way, I’ll introduce you to the 
+source code, and Android Studio is the IDE that you’ll use.
