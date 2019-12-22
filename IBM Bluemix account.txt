@@ -1,0 +1,16 @@
+Firstly, login into your IBM-Bluemix account with your e-mail ID and Password.
+Click on catalog on your dashboard screen .Under Boiler Plates Click on  Inte-
+-rnet of Things Platform  Service. Give a name for your service and it will 
+created with minutes. Then go to dashboard under  service  you will have your 
+IOT Platform service created along with Cloudant NOSQL DB also created. After 
+getting into your service click on Launch. Then you get into IBM Watson Platf-
+-orm .Then click on Devices. When you get into Devices you find a button called 
++Add Device click on it. Then you get a window where you should click on Create 
+Device Type. Then you will get an another window asking whether to create a de-
+-vice type or gateway type. Click on “Create a Device Type”. Then give a name 
+and Description for your device (any name and description can be given) and then 
+click on Next. Then another Window appears just click on Next. Click on Next 
+twice. Click on Create at the bottom. Click on next. Give your Raspberry-Pi’s IP 
+Address as Device ID for unique identification. Click on Next twice. Click on 
+Add. Then you get your device Credentials which you can use later. Copy them   
+and paste them  in a notepad for future uses.
