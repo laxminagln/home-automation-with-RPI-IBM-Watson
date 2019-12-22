@@ -1,0 +1,28 @@
+Now we are going to install necessary packages on your pi.
+Open your terminal in your pi and type the following commands
+curl -LO https://github.com/ibm-messaging/iot-raspberrypi/releases/download/1.0.2.1/iot_1.0-2_armhf.deb 
+sudo dpkg -i iot_1.0-2_armhf.deb 
+service iot status
+Then open your terminal and type pip install ibmiotf
+
+Go to Dashboard  on  your IBM Bluemix page and under app you will find your node red application double 
+click on it and click on Launch. 
+You will get the node red page on your   give username and password (mostly same as your IBM Bluemix’s 
+login Id and Password).
+Then you will get a new node red flow window.
+Firstly  we will be needing  some UI  (some kind of Buttons ) to control your appliances.
+So, firstly click on the dropdown   beside  Deploy you will get the following options among them click on 
+Manage Palette.
+Then for getting all the button nodes for UI type node-red-dashboard on your install tab as shown below and 
+click on install
+After the installation is complete if scroll down you can find your installed nodes in the dashboard section 
+Click on button and drag out  6  such buttons with the following for each button.
+Then take out the mqtt node and configure it as follows and write a topic name according to the topic that you 
+have specified in your code to subscribe to.
+Then bring out an IBM IOT Output node, Device Id and Device type should be same as the one obtained after creation 
+of device.
+To get to know the output coming out of Mosquitto Broker even include a debug node at the end with following 
+configuration.
+TO have a look at the UI with your buttons copy the url till mybluemix.net and then /UI .
+Then run your respective code on your Pi with your credentials you obtained at the beginning and then by clicking 
+on the buttons in UI you can control the respective pin assigned to each button in your code.
